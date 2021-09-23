@@ -8,12 +8,12 @@ var db
 export const initializeFirebase = () => {
     // if (!firebase.apps.length) {
     initializeApp({
-        apiKey: "AIzaSyBhz5Xy1YRQmy_C36OUAn_mI0ao-88aP58",
-        authDomain: "avatar-garments-console.firebaseapp.com",
-        projectId: "avatar-garments-console",
-        storageBucket: "avatar-garments-console.appspot.com",
-        messagingSenderId: "229655194643",
-        appId: "1:229655194643:web:5b84a54f4c2ec77ca863e6"
+        apiKey: "AIzaSyBZCgErFx4wGEyLe-Ncpe2K1OBZ0BRdEJI",
+        authDomain: "avatar-garments-console-70a14.firebaseapp.com",
+        projectId: "avatar-garments-console-70a14",
+        storageBucket: "avatar-garments-console-70a14.appspot.com",
+        messagingSenderId: "1082034447236",
+        appId: "1:1082034447236:web:c16d49873864ee9485f3d1"
     });
     db = getFirestore();
 }

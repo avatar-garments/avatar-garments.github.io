@@ -119,7 +119,7 @@ export class Header extends React.Component {
                             <div class="d-flex">
                                 <div className="dropdown text-end d-flex" >
                                     <a className="d-block link-light text-decoration-none dropdown-toggle">
-                                        <img src="./avatar-garments/images/profile.svg" alt="mdo" width="32" height="32" className="rounded-circle" />
+                                        <img src="./images/profile.svg" alt="mdo" width="32" height="32" className="rounded-circle" />
                                     </a>
 
                                     <NormalDropdown
