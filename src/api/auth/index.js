@@ -82,8 +82,11 @@ export const passwordUpdate  = (body) => {
                 const auth = getAuth();
                 const user = auth.currentUser;
                 updatePassword(user, body).then((data) => {
+                    console.log('cccccccccccccc->')
                     resolve(data)
                   }).catch((error) => {
+                    console.log('cccccccccccccc error->',error)
+                    Toast({ type: 'danger', message: 'Internal Server Error', title: 'Error' })
                     // An error ocurred
                     // ...
                   });
