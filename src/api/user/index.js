@@ -94,6 +94,8 @@ export const getUserDetail = (body) => {
                     localStorage.setItem(CURRENT_USER, JSON.stringify({...docSnap.data(),id:docSnap.id}));
                     resolve(docSnap.data())
                 } else {
+                    Toast({ type: 'danger', message: "This Avatar garments account doesh't exist. Enter a different account", title: 'Error' })
+                    reject('')
                     // doc.data() will be undefined in this case
 
                 }
